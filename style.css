@@ -1,0 +1,143 @@
+.mainPageTabs, .logo, .middleSpace, .headerTabs{
+	display: inline-block;
+}
+.mainPageTabs{
+    width: 23%;
+    padding: 3% 0%;
+    font-family: cursive;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+   	text-align: center;
+   	color: #fff
+}
+body{
+	margin: 0px;
+	background: url(./images/wp2691048.jpg) no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.logo{
+	width: 20%;
+    height: 54px;
+    background: url(./images/full-motorcycle-helmet.png);
+	background-repeat: no-repeat;
+    background-size: 47px;
+    background-position: 90px 4px;
+}
+.middleSpace{
+	width: 30%
+}
+.headerTabs{
+	width: 49%
+}
+.mainPageTabs:hover{
+	background-color: transparent;
+	opacity: 0.5;
+}
+.mainPageBody{
+	height: auto;    
+}
+#imageSection{
+	height: 600px;
+}
+.tavelBlogsHeader, .tavelImageHeader, .tavelAboutMeHeader{
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+    font-family: cursive;
+    font-weight: 700;
+    padding-top: 10%;
+}
+.blogContent{
+	display: inline-block;
+	width: 20%;
+	height: auto;
+	color: #fff;
+	padding: 0% 5%;
+	font-size: 17px;
+    font-weight: 700;
+    font-family: cursive;
+    text-align: justify;
+}
+.blogTitle{
+	font-size: 25px;
+    font-weight: 700;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+.travelBlogContainer{
+	padding: 5% 0px;
+}
+.imageStyle{
+	width: 376px;
+    height: 376px;
+}
+.myTravelImage{
+	display: inline-block;
+}
+.travelAboutMeContainer{
+	color: #fff;
+    padding: 2%;
+    font-size: 20px;
+    font-family: cursive;
+}
+.aboutMeText{
+	padding: 1% 0%;
+}
+.mainPageFooter{
+    padding: 1% 0%;
+    font-family: cursive;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+   	text-align: center;
+   	color: #fff;
+   	background-color: #000;
+   	overflow: hidden;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+}
+.homeText{
+	text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    top: 320px;
+    position: relative;
+}
+.mainPageHeader{
+	overflow: hidden;
+  	background-color: #000;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	z-index: 1;
+}
+#myBtn {
+  	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 41px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	background: url(./images/curved-white-arrow-png-white-up-arrow-icon-115628934127okaaohywg.png);
+	width: 50px;
+	height: 50px;
+	background-size: 49px;
+	background-repeat: no-repeat;
+	border-radius: 27px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}

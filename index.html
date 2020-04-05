@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Travel Blog</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./project.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+	<link rel="icon" href="./images/full-motorcycle-helmet.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+	<div class="mainContainer">
+		<div class="mainPageHeader">
+			<div class="logo"></div>
+			<div class="middleSpace"></div>
+			<div class="headerTabs">
+				<div class="mainPageTabs" onclick="scrollToHomeSection()">Home</div>
+				<div class="mainPageTabs" onclick="scrollToTravelBlogSection()">Travel Blogs</div>
+				<div class="mainPageTabs" onclick="scrollToTravelImageSection()">Images</div>
+				<div class="mainPageTabs" onclick="scrollToAboutMeSection()">About Me</div>
+			</div>
+		</div>
+		<div class="mainPageBody">
+			<div id="imageSection">
+				<div class="homeText">Welcome to my Travel Blog</div>
+			</div>
+			<div id="travelBlogs">
+				<div class="tavelBlogsHeader">TRAVEL BLOGS</div>
+				<div class="travelBlogContainer">
+					<div class="blogContent">
+						<div class="blogTitle">Nandi Hills</div>
+						<span><p>Lorem ipsum dolor sit amet, ex mei offendit oporteat repudiandae, laudem aliquam minimum eam an, at falli ludus similique sit. Habemus sapientem conclusionemque ea eam, ut sed nonumy insolens neglegentur. Per porro fabulas eu, eam alii nostrum percipitur ut, cu vis velit mazim. Ei tantas adipiscing efficiantur qui. Minim labore qui te.</p></span>
+					</div>
+					<div class="blogContent">
+						<div class="blogTitle">Sivanasamudra</div>
+						<span><p>Lorem ipsum dolor sit amet, ex mei offendit oporteat repudiandae, laudem aliquam minimum eam an, at falli ludus similique sit. Habemus sapientem conclusionemque ea eam, ut sed nonumy insolens neglegentur. Per porro fabulas eu, eam alii nostrum percipitur ut, cu vis velit mazim. Ei tantas adipiscing efficiantur qui. Minim labore qui te.</p></span>
+					</div>
+					<div class="blogContent">
+						<div class="blogTitle">Hogenakkal</div>
+						<span><p>Lorem ipsum dolor sit amet, ex mei offendit oporteat repudiandae, laudem aliquam minimum eam an, at falli ludus similique sit. Habemus sapientem conclusionemque ea eam, ut sed nonumy insolens neglegentur. Per porro fabulas eu, eam alii nostrum percipitur ut, cu vis velit mazim. Ei tantas adipiscing efficiantur qui. Minim labore qui te.</p></span>
+					</div>
+					<div class="blogContent">
+						<div class="blogTitle">Pondecherry</div>
+						<span><p>Lorem ipsum dolor sit amet, ex mei offendit oporteat repudiandae, laudem aliquam minimum eam an, at falli ludus similique sit. Habemus sapientem conclusionemque ea eam, ut sed nonumy insolens neglegentur. Per porro fabulas eu, eam alii nostrum percipitur ut, cu vis velit mazim. Ei tantas adipiscing efficiantur qui. Minim labore qui te.</p></span>
+					</div>
+					<div class="blogContent">
+						<div class="blogTitle">GOA</div>
+						<span><p>Lorem ipsum dolor sit amet, ex mei offendit oporteat repudiandae, laudem aliquam minimum eam an, at falli ludus similique sit. Habemus sapientem conclusionemque ea eam, ut sed nonumy insolens neglegentur. Per porro fabulas eu, eam alii nostrum percipitur ut, cu vis velit mazim. Ei tantas adipiscing efficiantur qui. Minim labore qui te.</p></span>
+					</div>
+				</div>
+			</div>
+			<div id="travelImages">
+				<div class="tavelImageHeader">TRAVEL IMAGES</div>
+				<div class="travelImageContainer">
+					<div class="myTravelImage"><img class="imageStyle" src="./images/48374262_2018579604892572_3166908446536630272_o.jpg"></div>
+					<div class="myTravelImage"><img class="imageStyle" src="./images/20245579_1628644887148747_6890812149057016159_n.jpg"></div>
+					<div class="myTravelImage"><img class="imageStyle" src="./images/41861690_2102555346424363_2858121789970579456_o.jpg"></div>
+					<div class="myTravelImage"><img class="imageStyle" src="./images/20881901_1654812951198607_5249816166976596679_n.jpg"></div>
+					<div class="myTravelImage"><img class="imageStyle" src="./images/29541528_1877223038957596_2499797040667129598_n.jpg"></div>
+					<div class="myTravelImage"><img class="imageStyle" src="./images/48376536_2076280432465332_923146921843884032_o.jpg"></div>
+					<div class="myTravelImage"><img class="imageStyle" src="./images/44308416_1937947079622492_5460271590753173504_o.jpg"></div>
+					<div class="myTravelImage"><img class="imageStyle" src="./images/48052411_2077041239055918_1500903422830837760_o.jpg"></div>
+				</div>
+			</div>
+			<div id="aboutMe">
+				<div class="tavelAboutMeHeader">ABOUT ME</div>
+				<div class="travelAboutMeContainer">
+					<div class="aboutMeText">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+					<div class="aboutMeText">Name: Pratik Mandal</div>
+					<div class="aboutMeText">Location: Bangalore</div>
+					<div class="aboutMeText">Address: 10th cross road, manjunatha layout, silver springs layout, munnekollal, bengaluru, karnataka</div>
+					<iframe class="aboutMeText" width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=12.950138, 77.7129552&amp;q=10th cross road, manjunatha layout, silver springs layout, munnekollal, bengaluru, karnataka&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br />
+				</div>
+			</div>
+		</div>
+		<div class="mainPageFooter">
+			<span>My Travel Blog</span>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(this).scrollTop(0);
+	});
+</script>
+</html>
